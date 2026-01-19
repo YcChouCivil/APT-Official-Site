@@ -59,11 +59,11 @@
         </ul>
 
         <h3>2. 雲端服務與資料收集 (PlayFab)</h3>
-        <p>為了提供「點數儲值」、「會員權限管理」與「跨裝置漫遊」功能，本軟體使用 <strong>Microsoft Azure PlayFab</strong> 後端服務。我們會收集並傳輸以下資訊至雲端伺服器：</p>
+        <p>為了提供「點數儲值」與「會員權限管理」功能，本軟體使用 <strong>Microsoft Azure PlayFab</strong> 後端服務。我們會收集並傳輸以下資訊至雲端伺服器：</p>
         <ul>
-            <li><strong>裝置識別資訊：</strong> 為了建立您的專屬雲端帳號，我們會讀取您的電腦名稱 (Machine Name) 與使用者帳戶名稱 (User Name) 進行加密雜湊處理，作為您的唯一識別碼 (PlayFab ID)。</li>
-            <li><strong>虛擬商品紀錄：</strong> 您的點數餘額、會員訂閱狀態與使用紀錄將儲存在 PlayFab 雲端資料庫中，以確保您的權益不會因更換電腦而遺失。</li>
-            <li><strong>交易收據：</strong> 當您透過 Microsoft Store 購買點數時，我們會將加密的交易收據傳送至 PlayFab 進行驗證，以防止詐欺並確認入帳。</li>
+            <li><strong>裝置識別資訊：</strong> 為了識別您的權益，我們會讀取您的電腦名稱 (Machine Name) 與使用者帳戶名稱 (User Name) 建立唯一的識別 ID。<strong>請注意：此 ID 綁定於特定裝置，若更換電腦可能導致點數無法直接轉移，需聯繫客服處理。</strong></li>
+            <li><strong>虛擬商品紀錄：</strong> 您的點數餘額與會員訂閱狀態將儲存在 PlayFab 雲端資料庫中，以防止因本地電腦故障或重灌而導致資料遺失。</li>
+            <li><strong>交易紀錄：</strong> 當您透過 Microsoft Store 購買點數時，我們會將交易完成的狀態與金額紀錄傳送至 PlayFab 進行雲端存檔，以確保入帳正確。</li>
         </ul>
 
         <h3>3. 資訊安全</h3>
