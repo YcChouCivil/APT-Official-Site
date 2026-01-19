@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appraisal Photo Tool (APT) - 專業鑑定照片排版助手</title>
+    <style>
+        body { font-family: "Microsoft JhengHei", Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; background-color: #f4f7f9; }
+        header { background: #2c3e50; color: #fff; padding: 2rem 0; text-align: center; }
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { font-size: 1.2rem; color: #bdc3c7; }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; background: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.05); }
+        .btn { display: inline-block; padding: 10px 20px; background: #2196F3; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        .btn:hover { background: #1976D2; }
+        section { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #eee; }
+        h2 { color: #2c3e50; border-left: 5px solid #2196F3; padding-left: 10px; }
+        .highlight-box { background: #e8f4fc; padding: 15px; border-radius: 5px; border: 1px solid #b3e5fc; }
+        footer { text-align: center; padding: 20px; color: #7f8c8d; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Appraisal Photo Tool</h1>
+    <p>土木技師專用的鑑定照片自動排版系統</p>
+    <a href="#" class="btn">前往 Microsoft Store 下載 (Coming Soon)</a>
+</header>
+
+<div class="container">
+    
+    <section>
+        <h2>關於 APT</h2>
+        <p>APT (Appraisal Photo Tool) 是一款專為土木技師與鑑定人員設計的自動化工具。解決繁瑣的照片整理與 Word 排版工作，讓您專注於專業鑑定。</p>
+        <ul>
+            <li><strong>一鍵排版：</strong>自動讀取資料夾照片，生成標準鑑定報告格式 (Word/PDF)。</li>
+            <li><strong>本地處理：</strong>所有照片處理皆在您的電腦完成，確保案件資料不外流。</li>
+            <li><strong>雲端漫遊：</strong>透過 PlayFab 帳號系統，您的點數與權限可隨身帶著走。</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>聯絡支援 (Support)</h2>
+        <p>若您在使用上有任何問題、儲值未入帳或有功能建議，歡迎聯繫開發團隊。</p>
+        <div class="highlight-box">
+            <p><strong>📧 客服信箱：</strong> <a href="mailto:g8_k_to@hotmail.com">g8_k_to@hotmail.com</a></p>
+            <p><strong>服務時間：</strong> 週一至週五 09:00 - 18:00</p>
+        </div>
+    </section>
+
+    <section id="privacy">
+        <h2>隱私權政策 (Privacy Policy)</h2>
+        <p><em>生效日期：2026年1月19日</em></p>
+        
+        <h3>1. 核心原則：照片檔案本地化處理</h3>
+        <p>APT 是一款專為處理鑑定照片設計的工具軟體。我們深知案件資料的敏感性，因此在核心功能上採用 <strong>「本地處理 (Local Processing)」</strong> 技術：</p>
+        <ul>
+            <li><strong>照片與文件不外流：</strong> 您所選擇的照片、資料夾路徑及產出的 Word/PDF 報告，<strong>僅在您的個人電腦記憶體與硬碟中處理</strong>，絕不會上傳到我們的伺服器或任何第三方雲端空間。</li>
+            <li><strong>無內容存取權：</strong> 開發者無法查看、存取或備份您的任何案件照片或文件內容。</li>
+        </ul>
+
+        <h3>2. 雲端服務與資料收集 (PlayFab)</h3>
+        <p>為了提供「點數儲值」、「會員權限管理」與「跨裝置漫遊」功能，本軟體使用 <strong>Microsoft Azure PlayFab</strong> 後端服務。我們會收集並傳輸以下資訊至雲端伺服器：</p>
+        <ul>
+            <li><strong>裝置識別資訊：</strong> 為了建立您的專屬雲端帳號，我們會讀取您的電腦名稱 (Machine Name) 與使用者帳戶名稱 (User Name) 進行加密雜湊處理，作為您的唯一識別碼 (PlayFab ID)。</li>
+            <li><strong>虛擬商品紀錄：</strong> 您的點數餘額、會員訂閱狀態與使用紀錄將儲存在 PlayFab 雲端資料庫中，以確保您的權益不會因更換電腦而遺失。</li>
+            <li><strong>交易收據：</strong> 當您透過 Microsoft Store 購買點數時，我們會將加密的交易收據傳送至 PlayFab 進行驗證，以防止詐欺並確認入帳。</li>
+        </ul>
+
+        <h3>3. 資訊安全</h3>
+        <p>您與 PlayFab 伺服器之間的所有連線均採用業界標準的 SSL/HTTPS 加密傳輸。針對 Microsoft Store 的金流支付，我們不會接觸或儲存您的信用卡號。</p>
+
+        <h3>4. 使用者權利</h3>
+        <p>您可以隨時透過 Windows 標準卸載程序移除本應用程式。若需刪除雲端帳號資料，請透過客服信箱聯繫我們。</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 CYC Development. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
